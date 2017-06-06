@@ -1,13 +1,14 @@
 {
-  "name": "cookie-parser",
+  "name": "browser-cookie-parser",
   "description": "cookie parsing with signatures",
   "version": "1.4.3",
   "author": "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
   "contributors": [
-    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Philipp Paul <philipp.and.paul@gmail.com>"
   ],
   "license": "MIT",
-  "repository": "expressjs/cookie-parser",
+  "repository": "bobbor/browser-cookie-parser",
   "keywords": [
     "cookie",
     "middleware"
@@ -32,7 +33,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 8"
   },
   "scripts": {
     "lint": "eslint --plugin markdown --ext js,md .",
