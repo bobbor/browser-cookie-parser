@@ -37,7 +37,7 @@ module.exports.signedCookies = signedCookies
  */
 
 function cookieParser (secret, options) {
-  return function cookieParser (req, res, next) {
+  return function cookieParser (req, next) {
     if (req.cookies) {
       return next()
     }
